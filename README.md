@@ -1,6 +1,6 @@
-# Sample Project
+# Snow Atlas 
 
-This is as an example on how teams can structure their project repositories.
+This is the structure of for the project repositories.
 
 ## Files
 
