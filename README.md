@@ -12,15 +12,20 @@ Explore reprojection of snow product data, importing datasets to Google Earth En
 * `README.md`
 <br> Description of the project. [Sample](https://geohackweek.github.io/wiki/github_project_management.html#project-guidelines)
 
-## Folders
+### Team
 
 ### `contributors`
 Maura Rowell
 Michael Loso
-Shashank
+Yohan
 
 ### 'Team lead'
 Victoria Ly
+
+### 'Data Science Lead'
+Shashank Bhushan
+
+## Folders
 
 ### `notebooks`
 Notebooks that are considered delivered results for the project should go in
