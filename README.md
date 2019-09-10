@@ -19,10 +19,10 @@ Maura Rowell
 Michael Loso
 Yohan
 
-### 'Team lead'
+### `Team lead`
 Victoria Ly
 
-### 'Data Science Lead'
+### `Data Science Lead`
 Shashank Bhushan
 
 ## Folders
@@ -37,6 +37,9 @@ Helper utilities that are shared with the team
 ### `Datasets`
 GlobSnow http://www.globsnow.info/
 GlobSnow projection https://nsidc.org/ease/ease-grid-projection-gt
+
+Also, possible:
+CanSISE https://nsidc.org/data/nsidc-0668
 
 ### Background Reading
 Nolin, A. 2010 "Recent advances in remote sensing of seasonal snow" https://www.igsoc.org/journal/56/200/j10j240.pdf
