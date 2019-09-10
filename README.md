@@ -14,9 +14,10 @@ This is the structure of for the project repositories.
 ## Folders
 
 ### `contributors`
-Each team member has it's own folder under contributors, where he/she can
-work on their contribution. Having a dedicated folder for one-self helps to 
-prevent conflicts when merging with master.
+Maura Rowell
+Michael Loso
+Shashank
+Victoria Ly
 
 ### `notebooks`
 Notebooks that are considered delivered results for the project should go in
