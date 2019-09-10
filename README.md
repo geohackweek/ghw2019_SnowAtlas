@@ -1,6 +1,7 @@
 # Snow Atlas 
 
-This is the structure of for the project repositories.
+General Objective
+Explore reprojection of snow product data, importing datasets to Google Earth Engine, and comparing to snow classification algorithm 
 
 ## Files
 
@@ -17,6 +18,8 @@ This is the structure of for the project repositories.
 Maura Rowell
 Michael Loso
 Shashank
+
+### 'Team lead'
 Victoria Ly
 
 ### `notebooks`
@@ -25,4 +28,19 @@ here.
 
 ### `scripts`
 Helper utilities that are shared with the team
+
+### `Datasets`
+GlobSnow http://www.globsnow.info/
+
+
+### `Tools`
+Python
+Google Earth Engine
+
+<Python: gdalwarp, gdaltransform>
+
+High-level Goals
+Study Sites:
+Team Wiki
+Further information can be found on our team wiki page
 
