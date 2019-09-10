@@ -3,15 +3,6 @@
 ### General Objective
 Explore reprojection of snow product data, importing datasets to Google Earth Engine, and comparing to snow classification algorithm 
 
-## Files
-
-* `.gitignore`
-<br> Globally ignored files by `git` for the project.
-* `environment.yml`
-<br> `conda` environment description needed to run this project.
-* `README.md`
-<br> Description of the project. [Sample](https://geohackweek.github.io/wiki/github_project_management.html#project-guidelines)
-
 ## Collaborators  
 Maura Rowell
 Michael Loso
@@ -23,6 +14,15 @@ Victoria Ly
 Victoria Ly
 
 ### Data Science Leads:  
+
+## Files
+
+* `.gitignore`
+<br> Globally ignored files by `git` for the project.
+* `environment.yml`
+<br> `conda` environment description needed to run this project.
+* `README.md`
+<br> Description of the project. [Sample](https://geohackweek.github.io/wiki/github_project_management.html#project-guidelines)
 
 ## Folders
 
