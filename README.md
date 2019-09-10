@@ -31,16 +31,21 @@ Helper utilities that are shared with the team
 
 ### `Datasets`
 GlobSnow http://www.globsnow.info/
+GlobSnow projection https://nsidc.org/ease/ease-grid-projection-gt
 
+### Background Reading
+Nolin, A. 2010 "Recent advances in remote sensing of seasonal snow" https://www.igsoc.org/journal/56/200/j10j240.pdf
+Ly, V. AGU 2019 Abstract https://tinyurl.com/y6aarr3z
+Ly, V Eastern Snow Conference 2019 presentation https://tinyurl.com/y6oec49x
 
-### `Tools`
+### Tools
 Python
 Google Earth Engine
 
-<Python: gdalwarp, gdaltransform>
+<Python: gdalwarp, gdaltransform, xarray>
 
-High-level Goals
-Study Sites:
-Team Wiki
+### High-level Goals
+### Study Sites:
+### Team Wiki
 Further information can be found on our team wiki page
 
