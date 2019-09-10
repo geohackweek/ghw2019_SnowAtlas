@@ -12,18 +12,17 @@ Explore reprojection of snow product data, importing datasets to Google Earth En
 * `README.md`
 <br> Description of the project. [Sample](https://geohackweek.github.io/wiki/github_project_management.html#project-guidelines)
 
-### Team
-
-### `contributors`
+## Collaborators  
 Maura Rowell
 Michael Loso
+Shashank Bhushan
 Yohan
-
-### `Team lead`
 Victoria Ly
 
-### `Data Science Lead`
-Shashank Bhushan
+### Team Lead:  
+Victoria Ly
+
+### Data Science Leads:  
 
 ## Folders
 
