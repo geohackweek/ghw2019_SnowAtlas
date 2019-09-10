@@ -40,7 +40,7 @@ GlobSnow projection https://nsidc.org/ease/ease-grid-projection-gt
 Also, possible:
 CanSISE https://nsidc.org/data/nsidc-0668
 
-### Background Reading
+## Background Reading
 Nolin, A. 2010 "Recent advances in remote sensing of seasonal snow" https://www.igsoc.org/journal/56/200/j10j240.pdf
 Ly, V. AGU 2019 Abstract https://tinyurl.com/y6aarr3z
 Ly, V Eastern Snow Conference 2019 presentation https://tinyurl.com/y6oec49x
