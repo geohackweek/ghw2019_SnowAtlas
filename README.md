@@ -4,11 +4,8 @@
 Explore reprojection of snow product data, importing datasets to Google Earth Engine, and comparing to snow classification algorithm 
 
 ## Collaborators  
-Maura Rowell
-Michael Loso
-Shashank Bhushan
-Yohan
-Victoria Ly
+- Maura Rowell
+- Victoria Ly
 
 ### Team Lead:  
 Victoria Ly
