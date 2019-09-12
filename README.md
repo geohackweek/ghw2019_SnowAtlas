@@ -11,6 +11,7 @@ Explore reprojection of snow product data, importing datasets to Google Earth En
 Victoria Ly
 
 ### Data Science Leads:  
+Scott Henderson
 
 ## Files
 
