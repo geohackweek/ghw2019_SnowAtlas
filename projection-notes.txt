@@ -1,0 +1,28 @@
+https://nsidc.org/data/ease
+https://nsidc.org/ease/ease-grid-projection-gt
+
+
+EASE GRID 1 Northern Hemisphere, Lambert Azimuthal (EPSG: 3408)
+
+cols 721
+rows 721
+grid cell area 25,067.53 m x 25,067.53 m
+x-axis map coordinate of the outer edge of the upper-left pixel -9036842.76
+y-axis map coordinate of the outer edge of the upper-left pixel 9036842.76
+
+# usefule commands 
+gdalinfo GlobSnow_SWE_L3B_monthly_201601_v2.0.hdf
+gdalinfo HDF4_SDS:UNKNOWN:"GlobSnow_SWE_L3B_monthly_201601_v2.0.hdf":0
+
+
+# Need to assign geotransform since gdal not finding it automatically in hdf metadata
+gdal_translate -a_ullr <ulx> <uly> <lrx> <lry>
+lry = 9036842.76 + 25067.53*-721 = 9036846.37
+lrx = -9036842.76 + 25067.53*721 = -9036846.37
+
+# Commands to run:
+gdal_translate -of VRT -a_nodata -1 -a_srs EPSG:3408 -a_ullr -9036842.76 9036842.76 9036846.37 -9036846.37 HDF4_SDS:UNKNOWN:"GlobSnow_SWE_L3B_monthly_201601_v2.0.hdf":0 swe_average_201601_ease.vrt
+
+gdalwarp -of GTiff -t_srs EPSG:4326 -r cubic swe_average_201601_ease.vrt swe_average_201601.tif
+
+
