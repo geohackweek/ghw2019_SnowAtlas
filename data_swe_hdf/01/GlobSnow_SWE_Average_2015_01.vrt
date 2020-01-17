@@ -1,0 +1,35 @@
+<VRTDataset rasterXSize="721" rasterYSize="721">
+  <SRS>PROJCS["NSIDC EASE-Grid North",GEOGCS["Unspecified datum based upon the International 1924 Authalic Sphere",DATUM["Not_specified_based_on_International_1924_Authalic_Sphere",SPHEROID["International 1924 Authalic Sphere",6371228,0,AUTHORITY["EPSG","7057"]],AUTHORITY["EPSG","6053"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4053"]],PROJECTION["Lambert_Azimuthal_Equal_Area"],PARAMETER["latitude_of_center",90],PARAMETER["longitude_of_center",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],AUTHORITY["EPSG","3408"]]</SRS>
+  <GeoTransform> -9.0368427599999998e+06,  2.5067529999999999e+04,  0.0000000000000000e+00,  9.0368427599999998e+06,  0.0000000000000000e+00, -2.5067529999999999e+04</GeoTransform>
+  <Metadata>
+    <MDI key="Coordinate system">Equal-Area Scalable Earth Grid (EASE-Grid) - Northern Hemisphere</MDI>
+    <MDI key="Data content, field 1">Monthly mean Snow Water Equivalent (mm)</MDI>
+    <MDI key="Data content, field 2">Monthly maximum Snow Water Equivalent (mm)</MDI>
+    <MDI key="Data Date">yyyymmdd</MDI>
+    <MDI key="forest mask name">GLC-2000 derived forest mask</MDI>
+    <MDI key="forest mask version">v 2.0</MDI>
+    <MDI key="Landmask">GLC-2000 derived land classification mask</MDI>
+    <MDI key="Landmask version">v 2.0</MDI>
+    <MDI key="Latitude range">35N - 85N</MDI>
+    <MDI key="Longitude range">180W - 180E</MDI>
+    <MDI key="Mountain mask">ETOPO-5 derived mountain mask</MDI>
+    <MDI key="Mountain mask version">v 2.0</MDI>
+    <MDI key="Processing Date">yyyymmdd</MDI>
+    <MDI key="Processing Organisation">Finnish Meteorological Institute</MDI>
+    <MDI key="Processing software name">FMI assimilation algorithm (Pullianen 2006)</MDI>
+    <MDI key="Processing software version">v 2.0</MDI>
+    <MDI key="Sensor">SSM/I</MDI>
+    <MDI key="Spatial Resolution">25 X 25 sq.km</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>-1</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="0">HDF4_SDS:UNKNOWN:GlobSnow_SWE_L3B_monthly_201501_v2.0.hdf:0</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="721" RasterYSize="721" DataType="Float32" BlockXSize="721" BlockYSize="721" />
+      <SrcRect xOff="0" yOff="0" xSize="721" ySize="721" />
+      <DstRect xOff="0" yOff="0" xSize="721" ySize="721" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>
